@@ -3,11 +3,11 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
         API_HASH = "02b8371f37c3a82a8674e1ee84291bde"
         API_ID = 3314857
-        BOT_TOKEN = "5018068170:AAEzFo5_6x3Q0biQJ4XIDG2ZwONL-etiKPs"
+        BOT_TOKEN = "5036943571:AAFJH5szi4sUf8IOQtDh4R5LBPgY4IXeBhM"
         BASE_URL_OF_BOT = "http://20.115.88.137"
 
         # Edit the server port if you want to keep it default though.
@@ -56,7 +56,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -81,7 +81,7 @@ except:
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
